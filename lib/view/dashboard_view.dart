@@ -28,7 +28,7 @@ class DashboardView extends StatelessWidget {
               child: const Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Icon(Icons.add, size: 48),
+                  Icon(Icons.circle, size: 48),
                   Text('Area of Circle'),
                 ],
               ),
@@ -56,7 +56,7 @@ class DashboardView extends StatelessWidget {
               child: const Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Icon(Icons.person, size: 48),
+                  Icon(Icons.square, size: 48),
                   Text('Area of Square'),
                 ],
               ),
